@@ -1,1 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
+
+html {
+    font-family: "Sofadi One";
+    font-size: 30px;
+}
+
+.cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -100;
+    background-image: url('assets/banner.jpeg');
+    background-size: cover;
+}
+
+header {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    /* position: relative; */
+}
+header h2 {
+    margin-left: 16rem;
+    /* background: linear-gradient(yellow, red); */
+    background: -webkit-linear-gradient(yellow, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
