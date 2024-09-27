@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gollum Store</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
     <header>  
@@ -50,11 +51,45 @@
         </main>
 
 
-        <main>
-            <article>produto1</article>
-            <article>produto2</article>
-            <article>produto3</article>
-        </main>
+        <main id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <section class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="card" style="width: 18rem; margin: auto;">
+                  <img src="./assets/precioso.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card 1</h5>
+                    <p class="card-text">Este é o primeiro card.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card" style="width: 18rem; margin: auto;">
+                  <img src="./assets/andúril.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card 2</h5>
+                    <p class="card-text">Este é o segundo card.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card" style="width: 18rem; margin: auto;">
+                  <img src="./assets/anel2.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card 3</h5>
+                    <p class="card-text">Este é o terceiro card.</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Próximo</span>
+            </a>
+          </main>
 
         <footer class="rodape">
             <ul>  
@@ -75,6 +110,10 @@
             <h3> Ajuda </h3>
             
         </footer>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 </body>
 </html>
