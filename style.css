@@ -3,6 +3,9 @@
 html {
     font-family: "Sofadi One";
     font-size: 30px;
+    background-image: url(assets/degrade.png);
+  
+
 }
 
 * {
