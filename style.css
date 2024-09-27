@@ -89,14 +89,59 @@ nav {
     /* justify-content: left; */
 }
 
-.rodape {
-    display: flex;
-    justify-content: space-around;
-    background-color: rgb(43, 41, 41);
-    padding: 1.5rem;
-    
+footer {
+    background-color: rgb(43, 41, 41);  /* Cor de fundo escura */
+    color: rgb(20, 18, 18);            /* Cor do texto */
+    padding: 20px;          /* Espaçamento interno */
+    text-align: center;      /* Alinhamento central do texto */
 }
 
-.rodape a{
-    text-decoration: none;
+.footer-content {
+    display: flex;           /* Usar flexbox para organizar as seções */
+    justify-content: space-around;  /* Espaçamento entre as seções */
+    flex-wrap: wrap;        /* Permitir que as seções se empilhem em telas menores */
+}
+
+.footer-section {
+    flex: 1;                /* Seções ocupam espaço igual */
+    min-width: 100px;       /* Largura mínima para cada seção */
+    margin: 10px;          /* Margem entre as seções */
+    color:#d37b18e1;
+}
+
+.footer-section h2 {
+    margin-bottom: 10px;    /* Espaçamento abaixo dos títulos */
+}
+
+.footer-section ul {
+    list-style-type: none;   /* Remover marcadores da lista */
+    padding: 0;              /* Remover preenchimento da lista */
+    margin: 0;
+}
+
+.footer-section li {
+    margin: 5px 0;
+}
+.footer-section a {
+    color: #f4b507;          /* Cor dos links */
+    text-decoration: none;    /* Remover sublinhado */
+    display: block;
+}
+
+.footer-section a:hover {
+    text-decoration: underline; /* Sublinhado ao passar o mouse */
+}
+
+.footer-bottom {
+    margin-top: 20px;       /* Espaçamento acima da seção inferior */
+    font-size: 0.9em;       /* Fonte menor para o rodapé */
+}
+
+.footer-bottom a {
+    color: #f4b507;          /* Cor dos links na seção inferior */
+    text-decoration: none;    /* Remover sublinhado */
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline; /* Sublinhado ao passar o mouse */
 }
