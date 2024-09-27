@@ -100,3 +100,31 @@ nav {
 .rodape a{
     text-decoration: none;
 }
+
+main {
+    margin-top: 5rem;
+}
+
+.carousel-inner {
+    display: flex;
+    gap: 16px;
+}
+
+.carousel-item {
+    position: relative;
+    display: none;
+    float: left;
+    width: 100%;
+    margin-right: 100%;
+    backface-visibility: hidden;
+}
+
+.card {
+    border: 1px solid rgb(112, 107, 107) !important;
+}
+
+.card img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
