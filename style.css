@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap');
 
 html {
     font-family: "Sofadi One";
     font-size: 30px;
+    background-image: url(assets/degrade2.png);
 }
 
 * {
@@ -29,13 +31,7 @@ header {
     justify-content: center;
     align-items: center;}
     
-header h2 {
-    margin-left: 16rem;
-    /* background: linear-gradient(yellow, red); */
-    background: -webkit-linear-gradient(yellow, red);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
+
 
 div ul {
     list-style-type: none;
@@ -67,7 +63,6 @@ nav {
 }
 
 .sobre{
-    /* border: 1px solid red; */
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -76,17 +71,13 @@ nav {
 
 
 .imgsobre{
-    /* border: 1px solid rgb(94, 255, 0); */
     width: 100%;
     display:flex;
-    /* justify-content: right;         */
 }
 
 .textsobre{
-    /* border: 1px solid rgb(76, 0, 255); */
     width: 100%;
     display: flex;
-    /* justify-content: left; */
 }
 
 .rodape {
