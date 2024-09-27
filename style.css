@@ -18,7 +18,7 @@ html {
     height: 100%;
     width: 100%;
     z-index: -100;
-    background-image: url('assets/banner.jpeg');
+    background-image: url('assets/gollumbanner.jpg');
     background-size: cover;
 }
 
@@ -46,7 +46,7 @@ div ul {
 
 }
 
- a {
+ .pesquisa a{
     text-decoration: none;
     font-size: 1rem;
     margin: 0 0.5rem;
@@ -67,22 +67,36 @@ nav {
 }
 
 .sobre{
+    /* border: 1px solid red; */
     align-items: center;
     display: flex;
+    justify-content: space-between;
     padding-top: 5rem;
 }
 
 
 .imgsobre{
+    /* border: 1px solid rgb(94, 255, 0); */
     width: 100%;
     display:flex;
-    justify-content: right;        
+    /* justify-content: right;         */
 }
 
 .textsobre{
+    /* border: 1px solid rgb(76, 0, 255); */
     width: 100%;
     display: flex;
-    justify-content: left;
+    /* justify-content: left; */
 }
 
+.rodape {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(43, 41, 41);
+    padding: 1.5rem;
+    
+}
 
+.rodape a{
+    text-decoration: none;
+}
