@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap");
+
+:root {
+  --bg-body: #f4e9d9;
+  --bg-white: #ffffff;
+  --font-primary: "Sofadi One", system-ui;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: #333;
+  background: url('../assets/torre.jpeg') no-repeat center bottom;
+  background-size: cover;
+}
+
+body, button {
+  font: 400 1rem/1.6 var(--font-primary);
+}
+
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+h1 {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #ebebeb;
+}
+.intro {
+  text-align: center;
+  margin-bottom: 30px;
+  font-style: italic;
+  color: #5E4531;
+}
+.contact-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.contact-form, .contact-info {
+  flex: 1 1 300px;
+  background: var(--bg-white);
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+.form-group {
+  margin-bottom: 20px;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #8B4513;
+}
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #D2B48C;
+  border-radius: 5px;
+  font-family: inherit;
+}
+textarea {
+  height: 150px;
+}
+.btn {
+  display: inline-block;
+  background-color: #8B4513;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.btn:hover {
+  background-color: #6D370F;
+}
+.contact-info h2 {
+  color: #8B4513;
+  margin-bottom: 15px;
+}
+.contact-info p {
+  margin-bottom: 10px;
+}
+.social-links {
+  margin-top: 20px;
+}
+.social-links a {
+  color: #8B4513;
+  text-decoration: none;
+  margin-right: 10px;
+}
+@media (max-width: 768px) {
+  .contact-wrapper {
+      flex-direction: column;
+  }
+}
