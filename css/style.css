@@ -3,6 +3,7 @@
 html {
   font-family: "Sofadi One";
   font-size: 30px;
+  background-image: url(assets/degrade2.png);
 }
 
 * {
@@ -29,13 +30,6 @@ header {
   align-items: center;
 }
 
-header h2 {
-  margin-left: 16rem;
-  /* background: linear-gradient(yellow, red); */
-  background: -webkit-linear-gradient(yellow, red);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
 
 div ul {
   list-style-type: none;
@@ -78,8 +72,7 @@ nav {
 .textsobre {
   /* border: 1px solid rgb(76, 0, 255); */
   width: 100%;
-  display: flex;
-  /* justify-content: left; */
+  display: block;
 }
 
 footer {
@@ -174,7 +167,7 @@ footer {
 .card {
   flex: 0 0 calc(33.333% - 20px);
   margin: 0 10px;
-  background: #fff;
+  background: #b4acac;
   border-radius: 15px;
   overflow: hidden;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);

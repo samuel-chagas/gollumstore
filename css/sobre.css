@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap");
+
+html {
+  font-family: "Sofadi One";
+  font-size: 30px;
+  background-image: url(assets/degrade2.png);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  div ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .pesquisa a {
+    text-decoration: none;
+    font-size: 1rem;
+    margin: 0 0.5rem;
+    color: white;
+  }
+  
+  nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+  }
+
+  
